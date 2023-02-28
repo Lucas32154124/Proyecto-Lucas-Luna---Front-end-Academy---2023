@@ -1,0 +1,85 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(fondo/sas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    margin: 0px;
+    padding: 0px;  
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: rgb(0, 0, 0);
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #f80404;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    /*border: 1px solid rgb(252, 4, 4);*/
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgb(255, 5, 5);
+}
+.button{
+    border: none;
+    width: 100%;
+    color: rgb(10, 8, 8);
+    font-size: 20px;
+    background:  #ff0505;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(255, 254, 254);
+}
+p{
+    text-align: center;
+    color: #ec0202;
+}
+.link{
+    text-decoration: none;
+      color: #fcfafa;
+    font-weight: 600;
+}
+.link:hover{
+     color: rgb(250, 7, 7);
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
+        border-radius: 2%;
+    }
+}
